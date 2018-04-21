@@ -1,0 +1,41 @@
+{
+    "name": "webpack-workshop",
+    "version": "1.0.0",
+    "description": "webpack project for workshop",
+    "main": "index.js",
+    "scripts": {
+        "clean": "rimraf dist",
+        "build": "npm run clean && webpack -p",
+        "dev": "webpack-dev-server --hot --inline"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pisty/webpack-workshop.git"
+    },
+    "keywords": [
+        "webpack"
+    ],
+    "author": "pisty",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/pisty/webpack-workshop/issues"
+    },
+    "homepage": "https://github.com/pisty/webpack-workshop#readme",
+    "devDependencies": {
+        "babel-core": "^6.26.0",
+        "babel-loader": "^7.1.2",
+        "babel-preset-env": "^1.6.1",
+        "browser-sync": "^2.18.13",
+        "browser-sync-webpack-plugin": "^1.2.0",
+        "css-loader": "^0.28.7",
+        "extract-text-webpack-plugin": "^3.0.2",
+        "html-webpack-plugin": "^2.30.1",
+        "image-webpack-loader": "^3.4.2",
+        "lodash": "^4.17.4",
+        "rimraf": "^2.6.2",
+        "style-loader": "^0.19.0",
+        "url-loader": "^0.6.2",
+        "webpack": "^3.8.1",
+        "webpack-dev-server": "^2.9.4"
+    }
+}

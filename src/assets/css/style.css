@@ -1,0 +1,26 @@
+.calculator {
+    margin-top: 2vh;
+    border: 10px solid #aaa;
+    border-radius: 0;
+    padding: 1vw;
+    display: grid;
+    grid-gap: 1vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.clear {
+    grid-row: 1/3;
+    grid-column: 1/2;
+    height: 100%;
+    font-size: 3rem;
+}
+
+.result {
+    border: 10px solid #ddd;
+    font-size: 2.5rem;
+    text-align: right;
+    border-radius: 0;
+    grid-row: 1/3;
+    grid-column: 2/5;
+}
